@@ -15,8 +15,8 @@ main:
   - title: "Blog Posts"
     url: /Blog/
     
-  - title: "CV"
-    url: /files/cv.pdf
+  # - title: "CV"
+  #   url: /files/cv.pdf
     
   # - title: "Guide"
   #   url: /markdown/
