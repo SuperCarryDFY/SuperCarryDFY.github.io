@@ -1,0 +1,41 @@
+# Selected publications, in display order. Keep acceptance status explicit.
+- title: "Programmable design of functional proteins from natural language."
+  project: "Pinal"
+  authors: '**Fengyuan Dai**\*, Shiyang You\*, et al.'
+  venue: "Nature"
+  year: 2026
+  status: "Accepted"
+  paper_label: "Preprint"
+  paper_url: "https://doi.org/10.1101/2024.08.01.606258"
+  server_url: "http://www.denovo-pinal.com/"
+  summary: "Pinal is a 16-billion-parameter generative model pretrained on 1.7 billion protein–text pairs for designing proteins from natural language. Experiments confirmed the intended functions across four design tasks, including fluorescence and enzyme catalysis, without iterative experimental optimization."
+
+- title: "DOMINO: Learning Domain Co-occurrence for Multidomain Protein Design."
+  project: "DOMINO"
+  authors: '**Fengyuan Dai**\*, Jin Su\*, Qingsong Tan, Huijiao Yang, Xibin Zhou, Fajie Yuan.'
+  venue: "bioRxiv"
+  year: 2026
+  paper_label: "Preprint"
+  paper_url: "https://doi.org/10.64898/2026.05.01.721929"
+  server_url: "http://www.protein-domino.com/"
+  summary: "DOMINO learns domain co-occurrence patterns in natural proteins and uses these patterns to guide domain recombination for multidomain protein design."
+
+- title: "Democratizing protein language model training, sharing and collaboration."
+  project: "SaprotHub"
+  authors: 'Jin Su, Zhikai Li, Tianli Tao, Chenchen Han, Yan He, **Fengyuan Dai**, et al.'
+  venue: "Nature Biotechnology"
+  year: 2025
+  paper_label: "Paper"
+  paper_url: "https://doi.org/10.1038/s41587-025-02859-7"
+  server_url: "https://colab.research.google.com/github/westlake-repl/SaprotHub/blob/main/colab/SaprotHub_v2.ipynb"
+  summary: "SaprotHub enables protein language model training, prediction, and sharing without coding through a collaborative Google Colab platform. I trained the 1.3-billion-parameter SaProt model for this work."
+
+- title: "Decoding the Molecular Language of Proteins with Evolla."
+  project: "Evolla"
+  authors: 'Xibin Zhou\*, Chenchen Han\*, …, **Fengyuan Dai**, et al.'
+  venue: "bioRxiv"
+  year: 2025
+  paper_label: "Preprint"
+  paper_url: "https://doi.org/10.1101/2025.01.05.630192"
+  server_url: "http://www.chat-protein.com/"
+  summary: "Evolla is an interactive protein-language model trained on 546 million protein–text pairs and refined through direct preference optimization. It supports natural-language queries about protein function, with zero-shot performance comparable to state-of-the-art supervised prediction."

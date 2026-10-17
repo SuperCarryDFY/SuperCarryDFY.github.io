@@ -1,59 +1,38 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum vitae"
 permalink: /cv/
+excerpt: "Fengyuan Dai — education, research, selected publications, awards, and technical skills."
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download CV (PDF)]({{ '/files/cv.pdf' | relative_url }})
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Research profile
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+I am a joint Ph.D. student in Computer Science at Zhejiang University and Westlake University, developing generative models for functional protein design. My work combines large-scale pretraining and multimodal learning to connect natural-language instructions with protein sequences.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Research interests:** Protein language models, protein design, generative AI, AI for science, and RLHF.
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Education
+
+{% include education.html %}
+
+## Selected publications
+
+{% include selected-publications.html %}
+
+## Awards
+
+{% include awards.html %}
+
+## Technical skills
+
+- **Programming and tools:** Python, PyTorch, LaTeX, Linux, Git.
+- **Languages:** Chinese (native), English (fluent).
+
+## Contact
+
+Hangzhou, Zhejiang, China · [da1cantst0p@gmail.com](mailto:da1cantst0p@gmail.com)

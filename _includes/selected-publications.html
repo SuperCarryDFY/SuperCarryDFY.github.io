@@ -1,0 +1,12 @@
+<p class="publication-note">* Equal contribution. Selected publications are listed below; see <a href="{{ site.author.googlescholar }}">Google Scholar</a> for more.</p>
+<div class="publications">
+  {% for publication in site.data.publications %}
+  <article class="publication" aria-labelledby="publication-{{ publication.project | slugify }}">
+    <h3 id="publication-{{ publication.project | slugify }}"><a href="{{ publication.paper_url }}">{{ publication.title | escape }}</a></h3>
+    <div class="publication__authors">{{ publication.authors | markdownify }}</div>
+    <p class="publication__venue"><em>{{ publication.venue }}</em>, {{ publication.year }}{% if publication.status %} <strong>({{ publication.status }})</strong>{% endif %}</p>
+    <p class="publication__summary">{{ publication.summary | escape }}</p>
+    <p class="publication__links"><a href="{{ publication.paper_url }}">{{ publication.paper_label }}</a> · <a href="{{ publication.server_url }}">Online server</a></p>
+  </article>
+  {% endfor %}
+</div>

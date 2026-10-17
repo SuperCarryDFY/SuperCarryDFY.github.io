@@ -1,0 +1,32 @@
+/* Keep the Academic Pages typography and sidebar; give research entries room. */
+.publications {
+  .publication {
+    padding: 1.25em 0;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child { border-bottom: 0; }
+
+    h3 {
+      margin: 0 0 0.5em;
+      font-size: 1.05em;
+      line-height: 1.5;
+    }
+
+    p { margin: 0 0 0.5em; }
+
+    .publication__authors p,
+    .publication__venue,
+    .publication__links { font-size: 0.9em; }
+
+    .publication__summary { font-size: 0.95em; }
+  }
+}
+
+.publication-note {
+  font-size: 0.85em !important;
+  color: $muted-text-color;
+}
+
+.publication__links a { white-space: nowrap; }
+
+.page__content a { overflow-wrap: break-word; }
