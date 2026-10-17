@@ -12,7 +12,7 @@ I am **Fengyuan Dai**, a joint Ph.D. student in Computer Science at [Westlake Un
 
 I develop **generative models for functional protein design**. My research combines large-scale pretraining and multimodal learning to connect natural-language instructions with protein sequences. My interests include protein language models, protein design, generative AI, AI for science, and reinforcement learning from human feedback (RLHF).
 
-As a co-first author, I developed **Pinal** for text-guided protein design (accepted by *Nature*) and **DOMINO** for multidomain protein design guided by learned domain co-occurrence patterns. I also contribute to protein model infrastructure and interactive protein function understanding through **SaprotHub** and **Evolla**.
+As a first author, I developed **Pinal** for text-guided protein design (accepted by *Nature*) and **DOMINO** for multidomain protein design guided by learned domain co-occurrence patterns. I also contribute to protein model infrastructure and interactive protein function understanding through **SaprotHub** and **Evolla**.
 
 ## Selected publications
 
