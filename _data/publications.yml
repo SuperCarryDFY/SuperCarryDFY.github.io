@@ -4,9 +4,8 @@
   authors: '**Fengyuan Dai**\*, Shiyang You\*, et al.'
   venue: "Nature"
   year: 2026
-  status: "Accepted"
-  paper_label: "Preprint"
-  paper_url: "https://doi.org/10.1101/2024.08.01.606258"
+  paper_label: "Paper"
+  paper_url: "https://www.nature.com/articles/s41586-026-11205-z"
   server_url: "http://www.denovo-pinal.com/"
   summary: "Pinal is a 16-billion-parameter generative model pretrained on 1.7 billion protein–text pairs for designing proteins from natural language. Experiments confirmed the intended functions across four design tasks, including fluorescence and enzyme catalysis, without iterative experimental optimization."
 
